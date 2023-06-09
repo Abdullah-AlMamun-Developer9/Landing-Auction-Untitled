@@ -1,0 +1,625 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+}
+body {
+    font-family: 'Inter' !important;
+    overflow-x: hidden;
+}
+.nav-link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+    color: #0D0A19;
+    margin-left: 20px;
+}
+.nav-link:hover {
+    text-decoration: underline 2px solid #000;
+}
+.SignUp_1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.1px;
+    color: #9A9EA7 !important;
+}
+.SignUp_1:hover {
+    text-decoration: none;
+    color: #3B7AD4 !important;
+}
+.SignUp_1 img {
+    background: #F5F6F7;
+    border-radius: 10px;
+    width: 30px;
+    height: 25px;
+    padding: 5px 8px;
+    margin-right: 5px;
+}
+.hero-section {
+    background-image: url("../image/Rectangle.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 560px;
+    position: relative;
+}
+.hero-section h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 74px;
+    text-align: center;
+    letter-spacing: -0.304762px;
+    color: #FFFFFF;
+    padding-top: 100px;
+}
+.first-p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+.top-footer-section {
+    background: #FFFFFF;
+    box-shadow: 0px 3px 4px rgba(153, 155, 168, 0.15);
+    border-radius: 8px;
+    max-width: 945px;
+    height: 80px;
+    margin: 0px auto;
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    z-index: 99;
+    width: 98%;
+    transform: translateX(-50%);
+}
+.top-footer-section p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    margin-left: 10px;
+    letter-spacing: -0.1px;
+    color: #9A9EA7;
+}
+.form-select {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.1px;
+    color: #9A9EA7;
+    border: none !important;
+    margin-top: -15px;
+}
+.ex-color {
+    color:  #0D0A19;
+}
+.without-p {
+    margin-top: 27px;
+}
+
+.Header-btn {
+    background: #7963F0;
+    border-radius: 10px;
+    padding: 7px 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.1px;
+    color: #FFFFFF;
+}
+.Header-btn img {
+    margin-top: -3px;
+} 
+.border-r8 {
+    border-right: 1px solid #EDE8E9 ;
+    height: 40px;
+    margin-top: 15px;
+}
+.SomeMargin {
+    margin-top: 30px;
+}
+.main {
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+
+.active-section h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: -0.1px;
+    color: #0D0A19;
+    margin-bottom: 50px;
+}
+.active-section h5 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 10px;
+    color: #0D0A19;
+
+}
+.active-section p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.1px;
+    color: #9A9EA7;
+}
+.Button1 {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), #7963f0 !important;
+    color: #7963f0 !important;
+    border-radius: 8px !important;
+    font-weight: 500 !important;
+    font-family: 'Inter';
+    font-style: normal !important;
+    font-size: 14px !important;
+    line-height: 21px !important;
+    text-align: center !important;
+    letter-spacing: -0.1px !important;
+}
+.Button2 {
+    background-color: #f5f6f7 !important;
+    color: #9a9ea7 !important;
+    border-radius: 8px !important;
+    font-weight: 500 !important;
+    font-family: 'Inter';
+    font-style: normal !important;
+    font-size: 14px !important;
+    line-height: 21px !important;
+    text-align: center !important;
+    letter-spacing: -0.1px !important;
+}
+.card {
+    border: none !important;
+}
+.FindcarHeader {
+    width: 98%;
+    height: 60px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 70px;
+}
+.section4 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.findCar {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: -0.1px;
+    color: #0D0A19;
+}
+
+.ArrowArea{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    color: #9A9EA7;
+
+}
+
+header p span {
+    margin:0px 5px;
+    width: 30px;
+    height: 30px;
+
+} 
+.ArrowArea {
+    margin-top: 15px;
+}
+.ArrowArea img {
+    background: #F5F6F7;
+    border-radius: 10px;
+    padding: 10px !important;
+}
+.Sedan {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0D0A19;
+
+}
+.ProBTN {
+    font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700 !important;
+	font-size: 12px !important;
+	line-height: 18px !important;
+	text-align: center !important;
+	background: linear-gradient(0deg, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), #7963f0 !important;
+	border-radius: 8px !important;
+	color: #7963f0 !important;
+}
+.ProBTN1 {
+    font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700 !important;
+	font-size: 12px !important;
+	line-height: 18px !important;
+	text-align: center !important;
+    background: #F5F6F7;
+    border-radius: 8px;
+    color: #9A9EA7;
+}
+.product {
+	min-width: 26%;
+	margin: 0 20px 50px 0px;
+	position: relative;
+	left: 0;
+	transition: 0.5s;
+}
+
+.find-nav h3 {
+    color: #0D0A19;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: -0.1px;
+}
+.find-by-section .btn-find {
+    color: #9A9EA7;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: -0.1px;
+}
+.find-by-section .active {
+    color: #0D0A19;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    border-radius: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 3.4px;
+}
+.find .popularP {
+    color: #9A9EA7;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.1px;
+    margin-bottom: 50px;
+}
+.find .find-Item {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 65px;
+}
+
+.find .find-Item p {
+    margin: 0px;
+}
+.find .find-des .subaru {
+    color: #0D0A19;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+}
+.find .find-des .number {
+    color: #9A9EA7;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.1px;
+}
+.find .find-des {
+    align-items: center;
+}
+.find .find-des .Margin-Arrow-Icon {
+    margin-left: 180px;
+}
+.find-des1 {
+    display: flex;
+    justify-content: space-between;
+}
+.Other-Makes {
+    color: #9A9EA7;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.1px;
+    margin-bottom: 20px;
+}
+.find-Item1 .subaru {
+    color: #0D0A19;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 35px;
+    margin: 0px;
+}
+.find-Item1 .number {
+    color: #0D0A19;
+    font-family: 'Inter';
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 35px;
+    text-align: right;
+    margin: 0px;
+}
+.Other-Makes2 {
+    margin-bottom: 40px;
+}
+.col-md-1 {
+    width: 0%;
+}
+.find {
+    margin-right: -40px;
+}
+.btns {
+    gap: 20px;
+}
+.fst1 {
+    margin-right: 70px;
+}
+.scnd2 {
+    margin-right: 65px;
+}
+
+.up-footer {
+    margin: 120px 0px 30px 40px;
+}
+.up-footer p {
+    color: #9A9EA7;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 33px;
+    letter-spacing: -0.1px;
+    margin: 0px;
+}
+.up-footer .About {
+    color: #0D0A19;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.1px;
+    margin-bottom: 6px;
+}
+.footer-area {
+    padding: 30px 0px;
+    /* margin-left: 40px; */
+}
+.left-foot {
+    display: flex;
+    gap: 20px;
+}
+.footer-area .left-footer p {
+    color: #9A9EA7;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.1px;
+}
+.footer-area .left-footer .left-footer-bold {
+    color: #0D0A19;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.1px;
+}
+.footer-two {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 32px;
+}
+.right-footer {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+.right-footer p {
+    color: #9A9EA7;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.1px;
+}
+.right-footer p img {
+    margin-top: -4px;
+    margin-right: 4px;
+}
+
+
+
+
+
+
+@media all and (max-width:991px) {
+    .main .col-md-2:nth-child(1) img {
+        width: 140%;
+    }
+    .main .col-md-2:nth-child(2) img {
+        width: 35%;
+    }
+    .main .col-md-2:nth-child(3) img {
+        width: 120%;
+    }
+    .main .col-md-2:nth-child(4) img {
+        width: 50%;
+    }
+    .main .col-md-2:nth-child(5) img {
+        width: 120%;
+    }
+    .main .col-md-2:nth-child(6) img {
+        width: 50%;
+    }
+    .find {
+        margin-right: 0px;
+    }
+}
+
+@media all and (max-width:767px){
+    .hero-section h1 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .first-p {
+        font-size: 15.5px;
+    }
+    .top-footer-section { 
+        height: 100px ;
+        margin-top: -50px !important;
+    }
+    .Header-btn {
+        width: 95%;
+        padding: 17px 0px;
+    }
+    .main {
+        margin-top: 320px;
+    }
+    .main .col-md-2:nth-child(1) img {
+        width: 40%;
+    }
+    .main .col-md-2:nth-child(2) img {
+        width: 10%;
+    }
+    .main .col-md-2:nth-child(3) img {
+        width: 38%;
+    }
+    .main .col-md-2:nth-child(4) img {
+        width: 12%;
+    }
+    .main .col-md-2:nth-child(5) img {
+        width: 38%;
+    }
+    .main .col-md-2:nth-child(6) img {
+        width: 12%;
+    }
+    .main .col-md-2 {
+        margin-top: 20px;
+    }
+    .product {
+        min-width: 50%;
+        margin-right: 10px;
+    }
+    .btns {
+        gap: 0px;
+    }
+    .find-nav h3 {
+        font-size: 24px;
+    }
+    .find-by-section .btn-find {
+        font-size: 11px;
+        padding: 2px 8px;
+    }
+    .up-footer {
+        margin-left: 20px;
+    }
+    .up-footer .col-md-3 {
+        width: 50%;
+    }
+    .left-foot {
+        display: block;
+    }
+    .right-footer {
+        align-items: center;
+    }
+}
+
+@media all and (max-width:422px) {
+    .hero-section h1 {
+        font-size: 32px;
+        line-height: 45px;
+    }
+    .first-p {
+        font-size: 13px;
+    }
+
+    .main .col-md-2 {
+        margin-top: 10px;
+    }
+    .product {
+        min-width: 60%;
+    }
+    .FindcarHeader {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .findCar {
+        font-size: 22px;
+    }
+    .ArrowArea {
+        margin-top: 12px;
+    }
+    .ArrowArea img {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .find-nav h3 {
+        font-size: 20px;
+    }
+    .find-by-section .btn-find {
+        font-size: 9px;
+        padding: 0px 4px;
+    }
+    .up-footer p {
+        font-size: 13px;
+        line-height: 30px;
+    }
+    .footer-area .left-footer .left-footer-bold {
+        font-size: 12px;
+        line-height: 10px;
+    }
+    .footer-area .left-footer p {
+        font-size: 12px;
+        line-height: 10px;
+    }
+    .right-footer p {
+        font-size: 11px;
+    }
+}
+
